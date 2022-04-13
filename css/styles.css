@@ -222,7 +222,7 @@ h5{
 }
 .card .button:hover{
 	background-color: transparent;
-	border: 2px solid #fcfc;
+	border: 2px solid #29da90;
 	cursor: pointer;
 }
 .contact-me{
@@ -304,4 +304,5 @@ footer p:nth-child(2){
 	color:#29da90;
 	bottom: 35px;
 	font-size: 14px; 
+	font-style: italic;
 }

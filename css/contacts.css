@@ -11,6 +11,12 @@
 	background-size: cover;
 	background-position: center;
 }
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
 nav{
 	display: flex;
 	align-items: center;

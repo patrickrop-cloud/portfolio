@@ -1,8 +1,8 @@
 *{
+	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
-	box-sizing: border-box;
 }
 .hero{
 	height: 100vh;
@@ -32,7 +32,7 @@ span{
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
-	padding: 10px  25px;
+	padding: 10px  30px;
 }
 nav ul li a{
 	color: white;
@@ -280,7 +280,6 @@ footer p:nth-child(2){
 }
 .social{
 	display: flex;
-	
 }
 .social a{
 	width: 45px;
@@ -288,10 +287,10 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  #29da90;
+	background:  white;
 	border-radius: 50%;
 	margin: 22px 10px;
-	color: white;
+	color: #000;
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -306,3 +305,12 @@ footer p:nth-child(2){
 	font-size: 14px; 
 	font-style: italic;
 }
+/* .contact{
+	display: flex;
+	text-align: left;
+	color: white;
+	background-color: #858585;
+	justify-content: right;
+	margin-right: 600%;
+
+} */

@@ -204,11 +204,11 @@ h5{
 	font-size: 23px;
 	margin-bottom: 15px;
 }
-.pra p{
+.para p{
 	color: white;
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
+	font-size: 1.05rem;
+	line-height: 35px;
+	margin-bottom: 18px;
 }
 .card .button{
 	background-color: #29da90;
@@ -240,7 +240,7 @@ h5{
 	font-weight: bold;
 	margin-bottom: 25px;
 }
-.contact-me .button-two{
+.contact-me .btn{
 	background-color:#29da90;
 	color: white;
 	text-decoration: none;
@@ -265,7 +265,7 @@ footer{
 	align-items: center;
 	justify-content: center;
 }
-footer p:nth-child(1){
+/* footer p:nth-child(1){
 	font-size: 30px;
 	color: white;
 	margin-bottom: 20px;
@@ -277,9 +277,14 @@ footer p:nth-child(2){
 	width: 500px;
 	text-align: center;
 	line-height: 26px;
-}
+} */
 .social{
 	display: flex;
+	/* flex-direction: row; */
+	/* background-color: #858585; */
+	border-radius: 30px;
+	padding-bottom: 40px;
+	margin-top: 60px;
 }
 .social a{
 	width: 45px;
@@ -307,10 +312,20 @@ footer p:nth-child(2){
 }
 /* .contact{
 	display: flex;
+	flex-direction: column;
 	text-align: left;
 	color: white;
-	background-color: #858585;
+	background-color: #f9004d;
 	justify-content: right;
 	margin-right: 600%;
 
 } */
+#email{
+	font-size: 1.02rem;
+	/* background-color: #f9004d; */
+	padding-right: 200px;
+	color: white;
+}
+#phone{
+	color: white;
+}

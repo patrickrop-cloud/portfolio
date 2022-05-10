@@ -26,6 +26,9 @@ nav{
 	letter-spacing: 1px;
 	cursor:crosshair;
 }
+a{
+	text-decoration: none;
+}
 span{
 	/* color: #f9004d; */
 	color: #29DE92;

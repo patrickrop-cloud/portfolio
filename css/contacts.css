@@ -36,12 +36,15 @@ nav{
 	color: white;
 	font-size: 35px;
 	letter-spacing: 1px;
-	cursor: pointer;
+	cursor: crosshair;
 }
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
 	padding: 10px  30px;
+}
+a{
+	text-decoration: none;
 }
 nav ul li a{
 	color: white;
@@ -130,15 +133,12 @@ p{
 	width: 600px;
 	padding-bottom: 35px;
 	border-radius: 10%;
-	opacity: 2;
+	opacity: 0.9;
 }
 .contact{
 	padding-right: 450px;
 
-}
-.phone{
-	opacity: 0.9;
-}
+} 
 .about-text{
 	width: 400px;
 }

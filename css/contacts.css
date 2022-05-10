@@ -4,13 +4,19 @@
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
 }
+span{
+	color:#29de92
+}
 .hero{
 	height: 100vh;
 	width: 100%;
 	background-image: url(/img/img6.jpg);
 	background-size: cover;
 	background-position: center;
+	/* opacity: 0.5; */
 }
+	
+
 .logo{
 	color: white;
 	font-size: 35px;
@@ -24,6 +30,7 @@ nav{
 	padding-top: 45px;
 	padding-left: 8%;
 	padding-right: 8%;
+	font-size: 1.3rem;
 }
 .logo{
 	color: white;
@@ -104,4 +111,47 @@ footer{
 }
 #phone{
 	color: white;
+}
+h2{
+	color: #29da90;
+	font-size: 3rem;
+	opacity: 1.5;
+}
+h3{
+	color: #e5ece9;
+	font-size: 2rem;
+	padding-top: 8px;
+}
+p{
+	color: white;
+}
+.main img{
+	height: 600px;
+	width: 600px;
+	padding-bottom: 35px;
+	border-radius: 10%;
+	opacity: 2;
+}
+.contact{
+	padding-right: 450px;
+
+}
+.phone{
+	opacity: 0.9;
+}
+.about-text{
+	width: 400px;
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	/* background-color: #191919; */
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
